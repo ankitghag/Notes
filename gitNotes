@@ -1,0 +1,36 @@
+git --version|check version of git
+git status|check current state of your repository
+git init|create a new folder on your system and initialize it as a git repository.adds a hidden '.git' folder to your project.
+git config --list|show you all the settingsi or config that you have changed.
+git add| add the folder to repository but are in staging area
+git commit|to save the changes and put into repo
+git push| to push into github
+git log|show you the history of your repository
+
+Set username and email:
+git config --global user.email "your-email@example.com"
+git config --global user.name "Your Name"
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Step :    git status -> git init -> git add -> git commit -> git push
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Stage:
+git init
+git add <file> <file2>
+git status
+
+file is now being tracked by git. Currently our files are in staging area, this means that we have not yet committed the changes but are ready to be committed.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Commit:
+
+git commit -m "commit message"
+git status
+
+changes are now committed to the repository
